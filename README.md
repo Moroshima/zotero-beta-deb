@@ -5,3 +5,8 @@
 ## TODO
 
 在该部分完成后我们可以着手为 AUR 提供 zotero-beta 及 zotero-git 的 PKGBUILD 文件。
+
+firefox nightly dist 下究竟哪些文件是必要的（参考aur）
+
+omni.ja zotero 是怎么处理的（似乎有一个 add omni）
+
