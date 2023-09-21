@@ -1,8 +1,5 @@
-#!/bin/bash
-set -euo pipefail
-
 # https://www.linuxfromscratch.org/blfs/view/svn/xsoft/firefox.html
-cat > mozconfig << "EOF"
+
 # If you have a multicore machine, all cores will be used by default.
 
 # If you have installed (or will install) wireless-tools, and you wish
@@ -92,6 +89,10 @@ ac_add_options --with-system-zlib
 # and was reported to seriously slow the build. Disable it.
 ac_add_options --without-wasm-sandboxed-libraries
 
+# For i686 build
+#ac_add_options --target=i686
+#ac_add_options --host=i686-unknown-linux-gnu
+
 # The following option unsets Telemetry Reporting. With the Addons Fiasco,
 # Mozilla was found to be collecting user's data, including saved passwords and
 # web form data, without users consent. Mozilla was also found shipping updates
@@ -101,4 +102,3 @@ ac_add_options --without-wasm-sandboxed-libraries
 unset MOZ_TELEMETRY_REPORTING
 
 mk_add_options MOZ_OBJDIR=@TOPSRCDIR@/firefox-build-dir
-EOF

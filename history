@@ -1,0 +1,318 @@
+    1  sudo visudo
+    2  sudo nano /etc/apt/sources.list
+    3  sudo sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list
+    4  sudo nano /etc/apt/sources.list
+    5  sudo apt install vim
+    6  sudo apt update
+    7  sudo apt install vim
+    8  sudo vim /etc/apt/sources.list
+    9  sudo apt update
+   10  sudo vim /etc/apt/sources.list
+   11  sudo apt update
+   12  sudo apt install ca-certificates
+   13  sudo vim /etc/apt/sources.list
+   14  sudo apt install ca-certificates
+   15  sudo vim /etc/apt/sources.list
+   16  sudo apt update
+   17  sudo apt upgrade
+   18  htop
+   19  sudo apt install htop
+   20  htop
+   21  cd
+   22  vim .bashrc
+   23  . .bashrc
+   24  ls
+   25  sudo apt install git
+   26  sudo apt install git-lfs
+   27  git clone --recursive https://github.com/zotero/zotero zotero-client
+   28  ls
+   29  ls -al
+   30  git clone --recursive https://github.com/zotero/zotero zotero-client
+   31  cd zotero-client/
+   32  app/scripts/check_requirements
+   33  sudo apt install nodejs npm python3 curl wget zip unzip xz-utils rsync
+   34  sudo vim ~/.npmrc
+   35  npm --version
+   36  npm i
+   37  proxy disable
+   38  npm i
+   39  npm run build
+   40  proxy enbale
+   41  proxy enable
+   42  npm run build
+   43  ls
+   44  npm run clean
+   45  npm run build
+   46  npm run clean
+   47  npm install event-emitter path-webpack
+   48  proxy disable
+   49  npm install event-emitter path-webpack
+   50  npm run clean
+   51  npm run build
+   52  proxy enable
+   53  app/scripts/fetch_xulrunner -p l
+   54  npm run build --openssl-legacy-provider
+   55  npm run clean
+   56  proxy disable
+   57  npm run build --openssl-legacy-provider
+   58  apt install -y zstd xvfb dbus-x11 libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6
+   59  sudo apt install -y zstd xvfb dbus-x11 libgtk-3-0 libx11-xcb1 libdbus-glib-1-2 libxt6
+   60  npm run clean
+   61  npm run build --openssl-legacy-provider
+   62  awk '{print$1}' (ip -6 addr | grep inet6 | awk -F '[ \t]+|/' '{print $3}' | grep -v ^::1 | grep -v ^fe80)
+   63  awk '{print$1}' ip -6 addr | grep inet6 | awk -F '[ \t]+|/' '{print $3}' | grep -v ^::1 | grep -v ^fe80)
+   64  awk '{print$1}' $(ip -6 addr | grep inet6 | awk -F '[ \t]+|/' '{print $3}' | grep -v ^::1 | grep -v ^fe80)
+   65  npm run build
+   66  cd
+   67  vim .bashrc
+   68  curl www.google.com
+   69  htop
+   70  cd ~/zotero-client/app/xulrunner/
+   71  ls
+   72  cd ~/firefox-102.13.0
+   73  ;s
+   74  ls
+   75  cat mozconfig 
+   76  cd ../zotero-client/
+   77  cd app/xulrunner/
+   78  ls
+   79  cd ../scripts/xulrunner_hash 
+   80  vim ../scripts/fetch_xulrunner
+   81  ../scripts/xulrunner_hash -p l > ./hash-linux
+   82  ../scripts/dir_build -p l
+   83  ls
+   84  ../scripts/fetch_xulrunner -p l
+   85  mv firefox-102.13.0 firefox-102.13.0esr
+   86  ../scripts/fetch_xulrunner -p l
+   87  vim ../scripts/fetch_xulrunner
+   88  ../scripts/fetch_xulrunner -p l
+   89  cd firefox-102.13.0esr/
+   90  ls
+   91  cd obj-x86_64-pc-linux-gnu/
+   92  cd dist/
+   93  ls
+   94  cd ..
+   95  tar -h
+   96  tar --help
+   97  tar -cvf --xz dist.tar.xz dist/
+   98  ls
+   99  rm -rf --xz
+  100  rm -rf ./--xz
+  101  tar -caf dist.tar.xz dist/
+  102  ls
+  103  tar --help
+  104  python3 -m http.server
+  105  ip addr show
+  106  python3 -m http.server
+  107  cd ../../../
+  108  cd ../..
+  109  cd firefox-102.13.0
+  110  ls
+  111  ./mach help
+  112  ./mach help package-multi-locale 
+  113  ./mach help package
+  114  ./mach package-multi-locale --locales en-US
+  115  ls
+  116  cd obj-x86_64-pc-linux-gnu/
+  117  ls
+  118  cd x86_64-unknown-linux-gnu/
+  119  ls
+  120  cd release/
+  121  ls
+  122  cd build/
+  123  ls
+  124  ./mach build
+  125  cd ../../..
+  126  cd ..
+  127  ./mach build
+  128  ./mach package
+  129  ./mach package-multi-locale --locales en-US
+  130  xz
+  131  cd obj-x86_64-pc-linux-gnu/
+  132  ls
+  133  cd x86_64-unknown-linux-gnu/
+  134  ls
+  135  cd release/
+  136  ls
+  137  cd build/
+  138  ls
+  139  cd ..
+  140  ls
+  141  cd deps
+  142  ls
+  143  cd ..
+  144  ls
+  145  cd incremental/
+  146  ls
+  147  cd ..
+  148  ls
+  149  cd ../..
+  150  cd dist
+  151  ls
+  152  tar -xvf firefox-102.13.0.en-US.linux-x86_64.tar.bz2 firefox-102.13.0esr
+  153  tar -h
+  154  tar --help
+  155  tar -xvf firefox-102.13.0.en-US.linux-x86_64.tar.bz2 -C firefox-102.13.0esr
+  156  tar -xvfC firefox-102.13.0esr firefox-102.13.0.en-US.linux-x86_64.tar.bz2
+  157  tar -xvf -C firefox-102.13.0esr firefox-102.13.0.en-US.linux-x86_64.tar.bz2
+  158  tar -xvf firefox-102.13.0.en-US.linux-x86_64.tar.bz2 -C firefox-102.13.0esr
+  159  mkdir firefox-102.13.0esr
+  160  tar -xvf firefox-102.13.0.en-US.linux-x86_64.tar.bz2 -C firefox-102.13.0esr
+  161  ls
+  162  python3 -m http.server
+  163  ip addr show
+  164  python3 -m http.server
+  165  cd ..
+  166  ls
+  167  cd ..
+  168  ls
+  169  rm -rf firefox-102.13.0
+  170  tar -xvf firefox-102.13.0esr.source.tar.xz 
+  171  cd firefox-102.13.0
+  172  ./mach build
+  173  vim mozconfig
+  174  mkdir .mozbuild
+  175  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  176  sudo apt install nspr
+  177  sudo apt install libnspr
+  178  sudo apt install libnspr4
+  179  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  180  sudo apt remove libnspr4
+  181  sudo apt install libnspr
+  182  sudo apt install libnspr4
+  183  sudo apt install libnspr4-dev
+  184  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  185  sudo apt install libvpx-dev
+  186  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  187  sudo apt install libpng-dev
+  188  find ./ debian.py
+  189  find ./ -name debian.py
+  190  vim python/mozboot/mozboot/debian.py
+  191  vim mozconfig 
+  192  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  193  sudo apt search nss
+  194  sudo apt install emacs
+  195  sudo apt install -y emacs
+  196  sudo apt install libnss3-dev
+  197  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  198  sudo apt install libevent\
+  199  sudo apt install libevent
+  200  sudo apt install -y libevent-dev
+  201  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  202  sudo apt install llvm
+  203  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  204  ls
+  205  cd obj-x86_64-pc-linux-gnu
+  206  ls
+  207  ./mach run
+  208  cd ..
+  209  ./mach run
+  210  cd obj-x86_64-pc-linux-gnu/
+  211  cd dist
+  212  ls
+  213  cd ..
+  214  ./mach package
+  215  cd obj-x86_64-pc-linux-gnu/
+  216  ls
+  217  cd ..
+  218  ls
+  219  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  220  ./mach run
+  221  cd firefox-build-dir/
+  222  ls
+  223  cd disy
+  224  cd dist
+  225  ls
+  226  sudo apt install gcc-multilib g++-multilib libdbus-glib-1-dev:i386   libgtk2.0-dev:i386 libgtk-3-dev:i386 libpango1.0-dev:i386 libxt-dev:i386   libx11-xcb-dev:i386 libpulse-dev:i386 libdrm-dev:i386
+  227  dpkg --add-architecture i386
+  228  sudo dpkg --add-architecture i386
+  229  sudo apt install gcc-multilib g++-multilib libdbus-glib-1-dev:i386   libgtk2.0-dev:i386 libgtk-3-dev:i386 libpango1.0-dev:i386 libxt-dev:i386   libx11-xcb-dev:i386 libpulse-dev:i386 libdrm-dev:i386
+  230  sudo apt update
+  231  sudo apt install gcc-multilib g++-multilib libdbus-glib-1-dev:i386   libgtk2.0-dev:i386 libgtk-3-dev:i386 libpango1.0-dev:i386 libxt-dev:i386   libx11-xcb-dev:i386 libpulse-dev:i386 libdrm-dev:i386
+  232  sudo apt install rustc:i386
+  233  sudo apt remove emacs
+  234  sudo apt install rustc:i386
+  235  rustc --version
+  236  rustc
+  237  rustc -C help
+  238  rustc --print target-features
+  239  sudo apt remove rustc
+  240  cd ../..
+  241  ls
+  242  vim ./mozconfig 
+  243  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  244  sudo apt install gcc:i386 g++:i386
+  245  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  246  vim ./mozconfig 
+  247  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  248  sudo apt install clang:i386
+  249  sudo apt remove clang
+  250  sudo apt remove clang:i386
+  251  sudo apt install clang-14:i386
+  252  sudo apt install llvm-14-dev:i386
+  253  sudo apt install libclang-common-14-dev:i386
+  254  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  255  ls
+  256  sudo apt remove clang:i386
+  257  sudo apt remove clang-14:i386
+  258  sudo apt install clang-14:i386
+  259  sudo apt install libclang1-14:i386
+  260  sudo apt install libclang-common-14-dev
+  261  sudo apt install libclang-common-14-dev:i386
+  262  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  263  sudo apt install clang-14:i386
+  264  sudo apt install libclang-14-dev:i386
+  265  sudo apt install libclang-common-14-dev:i386
+  266  sudo apt update
+  267  sudo apt install libclang-common-14-dev:i386
+  268  sudo apt install libclang-rt-14-dev:i386
+  269  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  270  sudo apt install clang-14
+  271  sudo apt install clang llvm
+  272  sudo apt info rustc
+  273  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  274  sudo apt install rustc:i386\
+  275  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  276  sudo apt-get install rustc:i386
+  277  sudo apt-get install rustc
+  278  sudo apt-get install rustc:i386
+  279  sudo apt install gcc:i386 g++:i386
+  280  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  281  sudo apt install clang:i386
+  282  sudo apt install libclang-common-14-dev:i386
+  283  sudo vim /etc/apt/sources.list
+  284  sudo apt update
+  285  sudo apt install clang:i386
+  286  sudo apt install clang-14:i386
+  287  sudo apt install libclang-common-14-dev:i386
+  288  sudo apt update
+  289  sudo apt install libclang-common-14-dev:i386
+  290  sudo apt install llvm lcang
+  291  sudo apt install llvm clang
+  292  sudo apt install rustc cargo
+  293  sudo vim /etc/apt/sources.list
+  294  sudo apt update
+  295  sudo apt install rustc cargo
+  296  sudo apt remove gcc
+  297  sudo apt remove gcc-12
+  298  sudo apt remove gcc-12-base libgcc-12-base
+  299  sudo apt remove gcc-12-base libgcc-12-dev
+  300  sudo apt install rustc cargo
+  301  gcc --version
+  302  g++ --version
+  303  sudo apt install g++
+  304  ls
+  305  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  306  ./mach help
+  307  MOZCONFIG=./mozconfig MOZBUILD_STATE_PATH=./.mozbuild ./mach build
+  308  sudo apt update
+  309  sudo apt install clang-14:i386
+  310  sudo apt install libclang-common-14-dev:i386
+  311  sudo apt install llvm-14-linker-tools:i386
+  312  sudo dpkg --remove-architechure i386
+  313  sudo dpkg --remove-architecture i386
+  314  apt-get remove --purge `dpkg --get-selections | awk '/i386/{print $1}'`
+  315  SUDO apt-get remove --purge `dpkg --get-selections | awk '/i386/{print $1}'`
+  316  sudo apt-get remove --purge `dpkg --get-selections | awk '/i386/{print $1}'`
+  317  cd
+  318  history > history
